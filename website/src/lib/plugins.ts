@@ -390,6 +390,13 @@ const PACKAGES: Package<Tags>[] = [
     iconUrl: '/assets/img/icons/hasura.svg',
     tags: ['plugin', 'utilities', 'hasura'],
   },
+  {
+    identifier: 'graphql-codegen-factories',
+    title: 'Factories Generator',
+    npmPackage: 'graphql-codegen-factories',
+    iconUrl: '/assets/img/icons/typescript.svg',
+    tags: ['plugin', 'typescript', 'factories'],
+  },
 ];
 
 export const packageList = PACKAGES.map(p => ({
